@@ -1,0 +1,74 @@
+# =========================
+#  Backend (Spring Boot)
+# =========================
+used_car_service/target/
+used_car_service/*.log
+used_car_service/.idea/
+used_car_service/*.iml
+
+# Maven wrapper (optional ignore jar)
+used_car_service/.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Frontend (React / Vite)
+# =========================
+used_car_frontend/node_modules/
+used_car_frontend/dist/
+used_car_frontend/.vite/
+
+# =========================
+# Environment Files
+# =========================
+.env
+.env.*
+used_car_frontend/.env
+used_car_service/.env
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temp / Cache
+# =========================
+*.tmp
+*.swp
+*~
+.cache/
+
+# =========================
+# Coverage / Test Reports
+# =========================
+coverage/
+used_car_service/surefire-reports/
+
+# =========================
+# Uploads / Generated Files
+# =========================
+used_car_service/uploads/
+
+# =========================
+# Build Artifacts
+# =========================
+*.class
+*.jar
+*.war
+*.ear

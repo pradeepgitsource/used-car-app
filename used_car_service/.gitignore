@@ -1,0 +1,73 @@
+# =========================
+# Build / Target
+# =========================
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# IDE Files
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+application-local.properties
+application-dev.properties
+
+# =========================
+# Uploads / Generated Files
+# =========================
+/uploads/
+
+# =========================
+# Maven Wrapper (keep config, ignore binaries if needed)
+# =========================
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Java / Class Files
+# =========================
+*.class
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.swp
+*~
+
+# =========================
+# Test Output
+# =========================
+/test-output/
+/surefire-reports/
+
+# =========================
+# Docker (optional)
+# =========================
+*.tar
+
+# =========================
+# Git attributes (optional ignore backup)
+# =========================
+*.orig

@@ -1,0 +1,142 @@
+{
+    "content": [
+        {
+            "id": 1,
+            "title": "Honda City 2020",
+            "brand": "Honda",
+            "year": 2020,
+            "mileage": 30000,
+            "fuelType": "PETROL",
+            "transmission": "MANUAL",
+            "price": 800000,
+            "location": "Mumbai",
+            "description": "Well maintained sedan",
+            "available": true,
+            "imageUrls": [
+                "https://picsum.photos/400/300?1"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Hyundai i20 2019",
+            "brand": "Hyundai",
+            "year": 2019,
+            "mileage": 40000,
+            "fuelType": "PETROL",
+            "transmission": "AUTOMATIC",
+            "price": 650000,
+            "location": "Pune",
+            "description": "Smooth hatchback",
+            "available": true,
+            "imageUrls": [
+                "https://picsum.photos/400/300?2"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Maruti Swift 2021",
+            "brand": "Maruti",
+            "year": 2021,
+            "mileage": 20000,
+            "fuelType": "PETROL",
+            "transmission": "MANUAL",
+            "price": 700000,
+            "location": "Delhi",
+            "description": "Like new",
+            "available": true,
+            "imageUrls": [
+                "https://picsum.photos/400/300?3"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Tata Nexon 2022",
+            "brand": "Tata",
+            "year": 2022,
+            "mileage": 15000,
+            "fuelType": "DIESEL",
+            "transmission": "MANUAL",
+            "price": 950000,
+            "location": "Bangalore",
+            "description": "Top model SUV",
+            "available": true,
+            "imageUrls": [
+                "https://picsum.photos/400/300?4"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Kia Seltos 2021",
+            "brand": "Kia",
+            "year": 2021,
+            "mileage": 25000,
+            "fuelType": "PETROL",
+            "transmission": "AUTOMATIC",
+            "price": 1200000,
+            "location": "Hyderabad",
+            "description": "Premium SUV",
+            "available": true,
+            "imageUrls": [
+                "https://picsum.photos/400/300?5"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Toyota Innova 2018",
+            "brand": "Toyota",
+            "year": 2018,
+            "mileage": 60000,
+            "fuelType": "DIESEL",
+            "transmission": "MANUAL",
+            "price": 1100000,
+            "location": "Chennai",
+            "description": "Family MPV",
+            "available": true,
+            "imageUrls": [
+                "https://picsum.photos/400/300?6"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Mahindra Thar 2022",
+            "brand": "Mahindra",
+            "year": 2022,
+            "mileage": 10000,
+            "fuelType": "DIESEL",
+            "transmission": "MANUAL",
+            "price": 1500000,
+            "location": "Jaipur",
+            "description": "Off-road SUV",
+            "available": true,
+            "imageUrls": [
+                "https://picsum.photos/400/300?7"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Ford EcoSport 2017",
+            "brand": "Ford",
+            "year": 2017,
+            "mileage": 70000,
+            "fuelType": "PETROL",
+            "transmission": "MANUAL",
+            "price": 550000,
+            "location": "Noida",
+            "description": "Compact SUV",
+            "available": true,
+            "imageUrls": [
+                "https://picsum.photos/400/300?8"
+            ]
+        }
+    ],
+    "pageable": {
+        "pageNumber": 0,
+        "pageSize": 5
+    },
+    "totalPages": 7,
+    "totalElements": 50,
+    "last": false,
+    "first": true,
+    "number": 0,
+    "size": 8
+}
