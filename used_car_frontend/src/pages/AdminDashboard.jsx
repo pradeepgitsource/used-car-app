@@ -167,13 +167,26 @@ export default function AdminDashboard() {
             {/* FORM */}
             <div className="bg-white p-4 rounded shadow mb-6 grid grid-cols-3 gap-4">
 
-                <input type="text" placeholder="Title" className="border p-2"
-                    value={form.title}
-                    onChange={e => setForm({ ...form, title: e.target.value })} />
+                <div className="flex flex-col">
+                    <label className="text-sm font-medium text-gray-700 mb-1">
+                        Title
+                    </label>
 
-                <input type="text" placeholder="Brand" className="border p-2"
-                    value={form.brand}
-                    onChange={e => setForm({ ...form, brand: e.target.value })} />
+                    <input type="text" placeholder="Title" className="border p-2"
+                        value={form.title}
+                        onChange={e => setForm({ ...form, title: e.target.value })} />
+                </div>
+
+                <div className="flex flex-col">
+                    <label className="text-sm font-medium text-gray-700 mb-1">
+                        Brand
+                    </label>
+
+                    <input type="text" placeholder="Brand" className="border p-2"
+                        value={form.brand}
+                        onChange={e => setForm({ ...form, brand: e.target.value })} />
+                </div>
+
 
                 <div className="flex flex-col">
                     <label className="text-sm font-medium text-gray-700 mb-1">
@@ -185,14 +198,26 @@ export default function AdminDashboard() {
                         onChange={e => setForm({ ...form, basePrice: e.target.value })} />
                 </div>
 
+                <div className="flex flex-col">
+                    <label className="text-sm font-medium text-gray-700 mb-1">
+                        Manufacturing Year
+                    </label>
 
-                <input type="number" placeholder="Year" className="border p-2"
-                    value={form.year}
-                    onChange={e => setForm({ ...form, year: e.target.value })} />
+                    <input type="number" placeholder="Year" className="border p-2"
+                        value={form.year}
+                        onChange={e => setForm({ ...form, year: e.target.value })} />
+                </div>
 
-                <input type="number" placeholder="Mileage" className="border p-2"
-                    value={form.mileage}
-                    onChange={e => setForm({ ...form, mileage: e.target.value })} />
+                <div className="flex flex-col">
+                    <label className="text-sm font-medium text-gray-700 mb-1">
+                        Mileage
+                    </label>
+
+                    <input type="number" placeholder="Mileage" className="border p-2"
+                        value={form.mileage}
+                        onChange={e => setForm({ ...form, mileage: e.target.value })} />
+                </div>
+
 
                 <textarea placeholder="Description" className="border p-2 col-span-3"
                     value={form.description}
