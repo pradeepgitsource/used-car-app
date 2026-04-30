@@ -189,8 +189,6 @@ Final Price = Base Price
 
 \* State managed using React hooks
 
-
-
 \---
 
 
