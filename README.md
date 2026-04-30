@@ -63,15 +63,6 @@ MySQL → localhost:3306
 
 ---
 
-## 📸 Screenshots
-
-Place images in `/screenshots` folder:
-- home.png  
-- details.png  
-- login.png  
-- user.png  
-- admin.png  
-
 ## Limitations / Future Improvements
 - Image upload can be enhanced using cloud storage (AWS S3)
 - Add refresh token mechanism
