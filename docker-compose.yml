@@ -13,21 +13,23 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql
 
-volumes:
-  mysql_data:
-
   backend:
     build: ./used_car_service
     container_name: used-car-backend
     ports:
       - "8080:8080"
     environment:
-      - SPRING_PROFILES_ACTIVE=dev
+      - SPRING_PROFILES_ACTIVE=docker
+    depends_on:
+      - mysql
 
   frontend:
     build: ./used_car_frontend
     container_name: used-car-frontend
     ports:
-      - "5173:8081"
+      - "5173:80"
     depends_on:
       - backend
+
+volumes:
+  mysql_data:
